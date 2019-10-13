@@ -1,1 +1,23 @@
-# mobileProgrammingProject
+20181698 소프트웨어학부 최보석
+
+모바일 프로그래밍 개인 과제
+
+1. 첫번째 화면(Relative Layout)
+ - ID,비밀번호(EditView) 로그인/회원가입(Button)
+ - 파일에서 개인정보 받아오기 (파일은 각각 id, pw, name, hp, address.txt로 관리)
+ - ID,비밀번호를 입력했을 때 id.txt와 pw.txt 파일로부터 존재하는 회원 정보인지 확인 후 정상적으로 확인되면 로그인 버튼 클릭 시 세번째 페이지 이동
+
+2. 두번째 화면(Linear Layout)
+ - 첫번째 페이지에서 회원가입을 클릭 시 출력
+ - id(EditView, 중복검사), pw(EditView)를 입력받고 ID는 id.txt파일을 읽어와 중복확인
+ - 이름/전화번호/주소(EditView)를 입력 받으면 각각 txt파일로 저장하여 관리
+
+3. 개인정보 사용 동의 간략 약관(TextView), 동의여부(RadioButton, Decline/Accept) 동의를 하지 않으면 (약관에 동의해주세요.)라는 문구를 보여주고 모든 정보를 모두 입력하지 않으면 (모든 정보를 입력해주세요)라는 문구 출력
+
+4. 취소(Button)을 누르면 다시 첫번째 화면으로 이동
+
+5. 확인(Button)을 누르면 회원정보는 txt파일로 저장, 첫번째 화면으로 이동
+
+6. 세번째 화면(GridLayout)
+ - 첫번째 페이지에서 ID,비밀번호 입력 시 정상이고 로그인 버튼 클릭 시 세번째 화면 출력
+ - GrideView를 이용하여 계산기 구현함.
